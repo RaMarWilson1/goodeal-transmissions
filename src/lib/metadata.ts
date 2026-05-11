@@ -1,7 +1,7 @@
 /* Shared Open Graph defaults — imported by each page's generateMetadata */
 import type { Metadata } from "next";
 
-export const BASE_URL = "https://goodealtransmissions.com";
+export const BASE_URL = "https://www.goodealdiscounttransmissions.com";
 
 export const SITE_NAME = "Goodeal Discount Transmissions";
 

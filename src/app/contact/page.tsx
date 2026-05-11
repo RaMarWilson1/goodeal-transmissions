@@ -1,7 +1,6 @@
 /* Contact page — server component with metadata */
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
-import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact Us | Goodeal Discount Transmissions Hammonton NJ",
@@ -10,8 +9,8 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Contact Goodeal Discount Transmissions",
     description:
-      "Call (609) 567-0900 or send a message. Located at 261 N White Horse Pike, Hammonton NJ. Mon–Fri 8am–4:30pm.",
-    url: "https://goodealtransmissions.com/contact",
+      "Call (609) 567-0900. Located at 261 N White Horse Pike, Hammonton NJ. Mon–Fri 8am–4:30pm.",
+    url: "https://www.goodealdiscounttransmissions.com/contact",
   },
 });
 
@@ -41,26 +40,39 @@ export default function ContactPage() {
             Get in <span style={{ color: "var(--accent)" }}>Touch</span>
           </h1>
           <p className="max-w-xl text-lg leading-relaxed" style={{ color: "var(--text-body)" }}>
-            Call us or send a message below and we&apos;ll get back to you.
-            Every job is different — reach out and we&apos;ll walk you through
-            it.
+            The best way to reach us is by phone. Give us a call and we&apos;ll
+            give you a straight answer.
           </p>
         </div>
       </section>
 
       {/* ── Two-Column Layout ── */}
-      <section className="section-padding" aria-label="Contact form and info">
+      <section className="section-padding" aria-label="Contact info">
         <div className="container-wide">
           <div className="grid gap-12 lg:grid-cols-2">
-            {/* ── Left: Contact Form ── */}
+            {/* ── Left: Phone CTA ── */}
             <div>
               <h2
                 className="mb-6 text-2xl font-extrabold uppercase"
                 style={{ fontFamily: "var(--font-barlow), sans-serif" }}
               >
-                Send a Message
+                Get in Touch
               </h2>
-              <ContactForm />
+              <p className="mb-8 text-lg leading-relaxed" style={{ color: "var(--text-body)" }}>
+                The best way to reach us is by phone. Give us a call and
+                we&apos;ll give you a straight answer.
+              </p>
+              <a
+                href="tel:+16095670900"
+                className="text-5xl font-extrabold transition-colors hover:text-[var(--accent)] md:text-6xl"
+                style={{
+                  fontFamily: "var(--font-barlow), sans-serif",
+                  color: "var(--text-heading)",
+                }}
+                aria-label="Call (609) 567-0900"
+              >
+                (609) 567-0900
+              </a>
             </div>
 
             {/* ── Right: Contact Info ── */}

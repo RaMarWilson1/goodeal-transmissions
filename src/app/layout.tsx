@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     "Transmission Repair Hammonton NJ | Goodeal Discount Transmissions",
   description:
     "Goodeal Discount Transmissions in Hammonton, NJ — trusted transmission repair, rebuild & auto service for 40+ years. Serving all of South Jersey. Call (609) 567-0900.",
-  metadataBase: new URL("https://goodealtransmissions.com"),
+  metadataBase: new URL("https://www.goodealdiscounttransmissions.com"),
   openGraph: {
     title: "Goodeal Discount Transmissions | Hammonton, NJ",
     description:
       "Trusted transmission repair, rebuilds & full auto service for 40+ years. Serving South Jersey. Call (609) 567-0900.",
-    url: "https://goodealtransmissions.com",
+    url: "https://www.goodealdiscounttransmissions.com",
     siteName: "Goodeal Discount Transmissions",
     type: "website",
     locale: "en_US",
@@ -55,7 +55,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "AutoRepair"],
   name: "Goodeal Discount Transmissions",
-  url: "https://goodealtransmissions.com",
+  url: "https://www.goodealdiscounttransmissions.com",
   telephone: "+16095670900",
   founder: {
     "@type": "Person",

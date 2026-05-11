@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
     title: "Auto Repair Services | Goodeal Discount Transmissions",
     description:
       "Transmission repair, rebuilds, clutch, brakes, AC, diagnostics & more. All makes and models. Hammonton, NJ.",
-    url: "https://goodealtransmissions.com/services",
+    url: "https://www.goodealdiscounttransmissions.com/services",
   },
 });
 

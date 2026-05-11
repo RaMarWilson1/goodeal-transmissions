@@ -16,7 +16,7 @@ export const metadata: Metadata = buildMetadata({
     title: "Goodeal Discount Transmissions | South Jersey's Transmission Experts",
     description:
       "Transmissions rebuilt and installed on-site. All makes and models. Full warranty. Serving South Jersey for 40+ years.",
-    url: "https://goodealtransmissions.com",
+    url: "https://www.goodealdiscounttransmissions.com",
   },
 });
 

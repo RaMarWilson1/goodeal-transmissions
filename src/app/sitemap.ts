@@ -1,7 +1,7 @@
 /* Sitemap — auto-generated at build time, served at /sitemap.xml */
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://goodealtransmissions.com";
+const BASE_URL = "https://www.goodealdiscounttransmissions.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
