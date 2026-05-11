@@ -1,4 +1,4 @@
-\/* About page — server component with metadata + client animated content */
+/* About page — server component with metadata + client animated content */
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import AboutContent from "./AboutContent";
